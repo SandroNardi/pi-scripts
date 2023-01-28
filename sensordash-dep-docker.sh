@@ -1,6 +1,6 @@
 
 echo "= STOP Container"
-(cd ~/sensordash;docker-compose stop && docker-compose rm -f)
+(cd ~/sensordash;docker compose down)
 echo "= Remove directory"
 (cd ~/;rm -rfv sensordash)
 echo "= Clone directory "
