@@ -10,9 +10,9 @@ sudo sh get-docker.sh
 
 sudo usermod -aG docker pi
 
-mkdir app
+mkdir /home/app
  
-cd app
+cd /home/app
 
 git clone https://github.com/SandroNardi/piholedocker.git
 
