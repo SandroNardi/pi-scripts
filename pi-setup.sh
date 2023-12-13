@@ -2,7 +2,7 @@ sudo apt update
 
 sudo apt upgrade -y
 
-sudo apt get sqlite3 xrdp -y
+sudo apt install sqlite3 xrdp -y
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 
